@@ -4,7 +4,7 @@ import { AppSidebar } from '@/components/AppSideBar';
 import { Separator } from "@/components/ui/separator"
 import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 
-const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+const AchievementsLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
         <SidebarProvider>
             <AppSidebar />
@@ -23,4 +23,4 @@ const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ children }) 
     );
 };
 
-export default DashboardLayout;
+export default AchievementsLayout;
