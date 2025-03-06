@@ -15,7 +15,7 @@ const SettingsLayout: React.FC<{ children: React.ReactNode }> = ({ children }) =
                         <Separator orientation="vertical" className="mr-2 h-4" />
                     </div>
                 </header>
-                <main className="flex-1 p-8">
+                <main className="container mx-auto px-4">
                     {children}
                 </main>
             </SidebarInset>

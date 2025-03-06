@@ -164,7 +164,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               <DropdownMenuGroup>
                 <DropdownMenuItem className="text-xl">
                   <Settings className="size-5" />
-                  Settings
+                  <Link href="/settings">Settings</Link>
                 </DropdownMenuItem>
               </DropdownMenuGroup>
               <DropdownMenuSeparator />
